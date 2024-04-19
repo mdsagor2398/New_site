@@ -103,6 +103,35 @@
  }
 
 
+ .hero_content {
+     padding-top: 120px;
+ }
+
+ .sub_heading p {
+     text-align: center;
+     font-size: 18px;
+     line-height: 1.6em;
+     padding-bottom: 10px;
+     color: #7842E8;
+ }
+
+ .main_heading h1 {
+     max-width: 749px;
+     margin: auto;
+     font-size: 66px;
+     text-align: center;
+     line-height: 1.3em;
+ }
+
+ .hero_p p {
+     max-width: 637px;
+     margin: auto;
+     font-size: 18px;
+     line-height: 1.6em;
+     color: #919099;
+ }
+
+
  /*------------------------------- 
    Responsive For Tablet
 -----------------------------*/
