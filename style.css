@@ -72,8 +72,8 @@
      margin: 10px;
  }
 
- .dropdown_menu ul li a{
-    color: #462a79;
+ .dropdown_menu ul li a {
+     color: #462a79;
  }
 
 
@@ -103,3 +103,18 @@
  }
 
 
+ /*------------------------------- 
+   Responsive For Tablet
+-----------------------------*/
+
+ @media (min-width:768px)and (max-width:1023px) {
+
+     .nav_items ul li {
+         padding-left: 20px;
+     }
+
+     .get_started_btn {
+         padding: 10px 25px 10px 14px;
+     }
+
+ }
