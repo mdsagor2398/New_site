@@ -103,6 +103,11 @@
  }
 
 
+
+ /* Navbar style end here */
+
+ /* Hero style start here */
+
  .hero_content {
      padding-top: 120px;
  }
@@ -129,7 +134,192 @@
      font-size: 18px;
      line-height: 1.6em;
      color: #919099;
+     padding-top: 20px;
+     padding-bottom: 24px;
  }
+
+ .hero_btn {
+     display: flex;
+     justify-content: center;
+ }
+
+ .hero_left_btn {
+     padding: 8px 16px;
+     background-color: #7842E8;
+     border-radius: 60px;
+ }
+
+ .hero_left_btn a {
+     color: #ffff;
+ }
+
+ .hero_right_btn {
+     display: flex;
+     align-items: center;
+     padding: 0px 18px 0 0px;
+     gap: 10px;
+     border: solid 1px #7842E8;
+     border-radius: 60px;
+ }
+
+ /* HERO TAB SITE */
+
+ .hero_all_tabs {
+     display: flex;
+     /* gap: 30px; */
+     justify-content: space-between;
+     padding-top: 72px;
+     padding-bottom: 160px;
+ }
+
+ .first_tab {
+     max-width: 360px;
+     text-align: center;
+     padding: 32px 26px;
+     border: solid #fff;
+     box-shadow: 0px 0px 12px;
+     border-radius: 24px;
+ }
+
+ .first_tab_middil {
+     max-width: 360px;
+     text-align: center;
+     padding: 32px 26px;
+     border-top: solid 5px #7842E8;
+     box-shadow: 0px 0px 12px;
+     border-radius: 24px;
+ }
+
+ .first_tab_middil {
+     max-width: 360px;
+ }
+
+ .first_tab_middil img {
+     max-width: 127.44px;
+     padding-bottom: 20px;
+ }
+
+ .first_tab_middil h3 {
+     font-weight: 500;
+     font-size: 20px;
+     color: #7842E8;
+     padding-bottom: 24px;
+ }
+
+ .first_tab i {
+     color: #7842E8;
+ }
+
+ .first_tab img {
+     max-width: 127.44px;
+     padding-bottom: 20px;
+ }
+
+ .first_tab h3 {
+     font-weight: 500;
+     font-size: 20px;
+     color: #7842E8;
+     padding-bottom: 24px;
+ }
+
+ .price {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .price h2 {
+     font-size: 50px;
+ }
+
+ .price p {
+     font-size: 18px;
+     color: #3e3e3f;
+     padding-top: 8px;
+     padding-bottom: 8px;
+ }
+
+
+
+ .hr {
+     max-width: 308px;
+     border: dashed 0.5px #505050;
+
+ }
+
+
+ .manage_calendars {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+     padding-top: 24px;
+     padding-bottom: 9.5px;
+ }
+
+ .time_and_bill {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+
+
+ }
+
+ .favorite {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+     padding-top: 9.5px;
+     padding-bottom: 32px;
+ }
+
+ .time_and_bill,
+ .manage_calendars p {
+     font-size: 16px;
+     font-weight: 500;
+ }
+
+ .time_and_bill,
+ .manage_calendars {
+     color: #2E2E32;
+ }
+
+ .first_tab_btn_1 {
+     display: inline-block;
+     padding: 12px 24px;
+     border: solid 1px #7842E8;
+     border-radius: 50px;
+     margin-top: 32px;
+
+
+ }
+
+ .first_tab_btn a {
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+
+ .first_tab_btn_2 {
+     display: inline-block;
+     padding: 12px 24px;
+     border: solid 1px #7842E8;
+     background-color: #7842E8;
+     border-radius: 50px;
+ }
+
+ .first_tab_btn_2 a {
+     font-size: 16px;
+     line-height: 1.2em;
+     color: #fff;
+     font-weight: 500;
+ }
+
+
+
+ /* Hero style start here */
+
+
+
 
 
  /*------------------------------- 
