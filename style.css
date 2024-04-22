@@ -173,7 +173,7 @@
  }
 
  .first_tab {
-     max-width: 360px;
+     /* max-width: 360px; */
      text-align: center;
      padding: 32px 26px;
      border: solid #fff;
@@ -182,7 +182,7 @@
  }
 
  .first_tab_middil {
-     max-width: 360px;
+     /* max-width: 360px; */
      text-align: center;
      padding: 32px 26px;
      border-top: solid 5px #7842E8;
@@ -191,7 +191,7 @@
  }
 
  .first_tab_middil {
-     max-width: 360px;
+     /* max-width: 360px; */
  }
 
  .first_tab_middil img {
@@ -314,11 +314,184 @@
      font-weight: 500;
  }
 
-
-
  /* Hero style start here */
 
 
+
+ /* section_3 style start here */
+
+ .main_header {
+     text-align: center;
+     font-size: 42px;
+     line-height: 1.3em;
+     color: #2E2E32;
+     padding-bottom: 16px;
+ }
+
+ .main_paragrap {
+     text-align: center;
+     font-size: 16px;
+     line-height: 1.6em;
+     color: #919099;
+ }
+
+ .boost_plan {
+     text-align: center;
+     display: flex;
+     align-items: center;
+     gap: 29.33px;
+     padding-top: 64px;
+     padding-bottom: 160px;
+ }
+
+ .plan {
+     padding: 30px 20px;
+ }
+
+ .plan:hover {
+     border: solid 0px #fff;
+     box-shadow: 0px 2px 18px;
+     border-radius: 10px;
+     transition: all .2s;
+ }
+
+ .plan h2 {
+     font-size: 22px;
+     line-height: 1.4em;
+     color: #2E2E32;
+     padding-top: 10px;
+     padding-bottom: 12px;
+ }
+
+ .plan p {
+     font-size: 14px;
+     line-height: 1.5999999999999999em;
+     color: #919099;
+ }
+
+ /* section_3 style end here */
+
+
+ /* section_4 style start here */
+
+ .section_4_main_header {
+     text-align: center;
+     font-size: 42px;
+     line-height: 1.3em;
+     color: #2E2E32;
+ }
+
+ .section_4_main_paragrap {
+     max-width: 800px;
+     margin: auto;
+     text-align: center;
+     font-size: 16px;
+     line-height: 1.6em;
+     color: #919099;
+     padding-top: 16px;
+     padding-bottom: 64px;
+ }
+
+ .experence_and_overview {
+     display: flex;
+     gap: 97px;
+ }
+
+ .experince_part {
+     padding-top: 66px;
+     position: relative;
+     background-image: url(imges/Experience_BG.png);
+ }
+
+ .trust_site_1 {
+     position: relative;
+     padding-left: 98px;
+ }
+
+ .experience_1 {
+     position: absolute;
+     left: -48px;
+     top: -48px;
+     padding-bottom: 48px;
+ }
+
+ .trust_site_1 h2 {
+     font-size: 20px;
+     line-height: 1.4em;
+     color: #2E2E32;
+ }
+
+ .trust_site_1 p {
+     font-size: 16px;
+     line-height: 1.6em;
+     color: #919099;
+     padding-top: 12px;
+
+ }
+
+ .trust_site_2 {}
+
+ .trust_site_2 h2 {
+     text-align: end;
+     font-size: 20px;
+     line-height: 1.4em;
+     color: #2E2E32;
+ }
+
+ .trust_site_2 {
+     position: relative;
+     padding-right: 48px;
+     padding-top: 48px;
+ }
+
+ .experience_2 {
+     position: absolute;
+     right: -104px;
+     top: -11px;
+ }
+
+ .trust_site_2 p {
+     text-align: right;
+     font-size: 16px;
+     line-height: 1.6em;
+     color: #919099;
+ }
+
+ .trust_site_3 {
+     padding-left: 98px;
+     position: relative;
+     padding-top: 48px;
+ }
+
+ .trust_site_3 h2 {
+     font-size: 20px;
+     line-height: 1.4em;
+     color: #2E2E32;
+     padding-bottom: 12px;
+
+ }
+
+ .trust_site_3 p {
+     font-size: 16px;
+     line-height: 1.6em;
+     color: #919099;
+
+ }
+
+ .experience_3 {
+     position: absolute;
+     top: -3px;
+     left: -57px;
+ }
+
+
+ .over_view_part img {
+     max-width: 543px;
+     min-height: 582.23px;
+ }
+
+
+ /* section_4 style end here */
 
 
 
@@ -336,4 +509,14 @@
          padding: 10px 25px 10px 14px;
      }
 
+
+     .boost_plan {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .experence_and_overview {
+         display: flex;
+         flex-wrap: wrap;
+     }
  }
