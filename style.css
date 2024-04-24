@@ -400,7 +400,6 @@
  .experince_part {
      padding-top: 66px;
      position: relative;
-     background-image: url(imges/Experience_BG.png);
  }
 
  .trust_site_1 {
@@ -409,11 +408,13 @@
  }
 
  .experience_1 {
+     max-width: 158px;
      position: absolute;
-     left: -48px;
-     top: -48px;
+     left: -32px;
+     top: -32px;
      padding-bottom: 48px;
  }
+
 
  .trust_site_1 h2 {
      font-size: 20px;
@@ -445,9 +446,10 @@
  }
 
  .experience_2 {
+     max-width: 158px;
      position: absolute;
-     right: -104px;
-     top: -11px;
+     right: -95px;
+     top: 29px;
  }
 
  .trust_site_2 p {
@@ -455,6 +457,7 @@
      font-size: 16px;
      line-height: 1.6em;
      color: #919099;
+     padding-top: 12px;
  }
 
  .trust_site_3 {
@@ -479,15 +482,23 @@
  }
 
  .experience_3 {
+     max-width: 158px;
      position: absolute;
-     top: -3px;
-     left: -57px;
+     top: 32px;
+     left: -32px;
+ }
+
+ .bg>img {
+     position: absolute;
+     top: 148px;
+     left: 36px;
  }
 
 
  .over_view_part img {
      max-width: 543px;
      min-height: 582.23px;
+     padding-bottom: 160px;
  }
 
 
@@ -516,7 +527,74 @@
      }
 
      .experence_and_overview {
-         display: flex;
-         flex-wrap: wrap;
+         justify-content: center;
+         align-items: end;
+         gap: 27px;
      }
+
+     .over_view_part img {
+         max-width: 330px;
+     }
+
+     .trust_site_1 {
+         position: relative;
+         padding-left: 50px;
+     }
+
+     .experience_1 {
+         max-width: 121px;
+         left: -47px;
+         top: -22px;
+     }
+
+     .trust_site_1 h2 {
+         font-size: 18px;
+     }
+
+     .trust_site_1 p {
+         font-size: 16px;
+     }
+
+     .trust_site_2 h2 {
+         font-size: 18px;
+     }
+
+     .trust_site_2 {
+         position: relative;
+         padding-right: 48px;
+
+     }
+
+     .experience_2 {
+         max-width: 121px;
+         right: -48px;
+         top: 29px;
+     }
+
+     .trust_site_2 p {
+         text-align: right;
+         font-size: 16px;
+     }
+
+     .trust_site_3 {
+         padding-left: 50px;
+     }
+
+     .trust_site_3 h2 {
+         font-size: 18px;
+
+     }
+
+     .experience_3 {
+         max-width: 121px;
+         position: absolute;
+         top: 31px;
+         left: -49px;
+     }
+
+     .bg>img {
+         display: none;
+     }
+
+
  }
