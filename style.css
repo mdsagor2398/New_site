@@ -192,7 +192,7 @@
  .first_tab_middil {
      /* max-width: 360px; */
      text-align: center;
-     padding: 32px 26px;
+     padding: 32px 36px;
      border-top: solid 5px #7842E8;
      box-shadow: 0px 0px 12px;
      border-radius: 24px;
@@ -679,7 +679,7 @@
 
  .footer_items {
      display: flex;
-     justify-content: space-around;
+     justify-content: space-evenly;
      /* padding-top: 123px; */
      padding-bottom: 70px;
  }
@@ -952,6 +952,26 @@
          padding: 10px 25px 10px 14px;
      }
 
+     /* HERO TAB SITE */
+
+     .hero_content {
+         padding-top: 80px;
+     }
+
+     .hero_all_tabs {
+         justify-content: space-around;
+         display: flex;
+         flex-wrap: wrap;
+         padding-top: 72px;
+         padding-bottom: 80px;
+     }
+
+     #responsive_tab {
+         margin-top: 40px;
+     }
+
+
+
 
      .boost_plan {
          display: grid;
@@ -1060,5 +1080,43 @@
 
      .accordion h1 {
          font-size: 22px;
+     }
+
+     .main_heading h1 {
+         font-size: 45px;
+     }
+
+     .hero-p {
+         font-size: 18px;
+         padding-bottom: 20px;
+     }
+
+
+
+     .hero_all_tabs {
+         justify-content: space-around;
+         flex-wrap: wrap;
+         padding-bottom: 45px;
+     }
+
+     #responsive_tab {
+         margin-top: 40px;
+         padding: 30px 40px;
+     }
+
+     #responsive_tab_2 {
+         padding: 30px 40px;
+         margin-top: 40px;
+     }
+
+
+
+     .boost_plan {
+         text-align: center;
+         display: flex;
+         align-items: center;
+         gap: 29.33px;
+         padding-top: 64px;
+         padding-bottom: 160px;
      }
  }
